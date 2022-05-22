@@ -1,0 +1,156 @@
+:root {
+    /* Logo Palette*/
+    --green: #43ffa0;
+    --yellow: #ffff00;
+    --cyan: #00ffff;
+    --strong_pink: #ec1e79;
+
+    /* Hover */
+    --black_cyan: #03b3b3;
+}
+
+body {
+    font-family: 'Catamaran', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6, span {
+    font-family: 'Catamaran', sans-serif !important;
+}
+
+/*Hero section*/
+
+.btn-get-started {
+    background-color: var(--cyan) !important;
+    color: black !important;
+    border: 1px solid var(--cyan);
+}
+
+.btn-get-started:hover {
+    background-color: black !important;
+    color: var(--cyan) !important;
+    border: 1px solid var(--cyan);
+}
+
+/*End Hero section*/
+
+/*Navbar section*/
+
+.nav-link.scrollto.active {
+    color: var(--black_cyan) !important;
+}
+
+#navbar ul li a:hover {
+    color: var(--black_cyan) !important;
+}
+
+/*End Navbar section*/
+
+/*About section*/
+
+.about-first-p {
+    margin-top: 30px;
+}
+
+.about-middle-p {
+    margin: 30px 0 !important;
+}
+
+/*End About section*/
+
+/*Service section*/
+
+#springboard-img, #retronfts-img, #tokenperkz-img, #cardanonftspy-img {
+    display: block;
+    width: 50px;
+    float: left;
+}
+
+#retronfts-img {
+    border-radius: 50%;
+}
+
+/*End Service section*/
+
+/*Featured section*/
+
+.featured .nav-link.active p {
+   color: black !important; 
+}
+
+/*End Featured section*/
+
+/*Why us section*/
+
+.accordion-list ul li a.active {
+    color: var(--black_cyan) !important;
+}
+
+/*End Why us section*/
+
+/*Portfolio section*/
+
+#portfolio-flters li:hover {
+    background-color: var(--cyan) !important;
+    color: black !important;
+}
+
+.filter-active {
+    background-color: var(--cyan) !important;
+    color: black !important;
+}
+
+/*End Portfolio section*/
+
+/*Testimonials section*/
+
+.quote-icon > i {
+    color: var(--black_cyan) !important;
+    border: 2px solid var(--black_cyan) !important;
+}
+
+/*End Testimonials section*/
+
+/*Tean section*/
+
+.member {
+    max-width: 400px !important;
+    margin: 0 auto;
+}
+
+.social {
+    background-color: hsla(180, 100%, 50%, 0.356) !important;
+}
+
+.work {
+    color: var(--black_cyan) !important;
+}
+
+/*End Tean section*/
+
+/*Footer section*/
+
+.btn-suscribe {
+    background-color: var(--cyan) !important;
+    color: black !important;
+    border: 1px solid var(--cyan) !important;
+}
+
+.btn-social {
+    background-color: var(--green) !important;
+    color: black !important;
+    border: 1px solid var(--green) !important;
+}
+
+.btn-social:hover {
+    background-color: black !important;
+    color: var(--green) !important;
+    border: 1px solid var(--green) !important;
+}
+
+.btn-suscribe:hover {
+    background-color: black !important;
+    color: var(--cyan) !important;
+    border: 1px solid var(--cyan) !important;
+}
+
+/*End Footer section*/
